@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Emploi</title>
+    <style>
+    table,td,th{
+        border: 2px solid black;
+        text-align: center;
+    }
+    th{
+        background-color: rgb(178, 207, 232);
+    }
+    #window,#win2{
+        display: none;
+        position: fixed;
+        width: 650px;
+        background-color: bisque;
+        border: 2px solid black;
+        padding: 10px;
+        top: 20%;
+        left: 20%;
+
+    }
+    #window:target , #win2:target{
+        display: block;
+    }
+    .fermer{
+        float: right;
+
+    }
+    </style>
+</head>
+<body>
+    <table>
+    <tr>
+        <th></th>
+        <th>09h00-10h30</th>
+        <th>10h35-12h05</th>
+        <th>12h15-13h45</th>
+        <th>13h50-15h20</th>
+        <th>15h30-17h00</th>
+        <th>17h05-18h35</th>
+    </tr>
+    <tr>
+        <th style="writing-mode: vertical-rl">Lundi</th>
+        <td></td>
+        <td></td>
+        <td><a href="#window">Programmation Web Dynamique (CM)</a><br>
+            Amphi A<br>
+            <a href="#win2">Prof. K. OMARI</a></td>
+        <td><a href="#window">Programmation Web Dynamique (CM)</a><br>
+            Amphi A<br>
+            <a href="#win2">Prof. K. OMARI</a></td>
+        <td></td>
+        <td></td>
+        
+    </tr>
+    <tr>
+        <th style="writing-mode: vertical-rl">Mardi</th>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <th style="writing-mode: vertical-rl">Mercredi</th>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <th style="writing-mode: vertical-rl">Jeudi</th>
+        <td></td>
+        <td></td>
+        <td>Génie Logiciel (CM)<br>
+            Prof. A. BOUAIN</td>
+        <td>Génie Logiciel (TD/TP)<br>
+            Prof. A. BOUAIN</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <th style="writing-mode: vertical-rl">Vendredi</th>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>IHM (CM)<br>
+            Amphi A<br>
+            Prof. M. BENADDY</td>
+        <td>IHM (TD/TP)<br>
+            Amphi A<br>
+            Prof. M. BENADDY</td>
+    </tr>
+    <tr>
+        <th style="writing-mode: vertical-rl">Samedi</th>
+        <td>Modélisation (TD)<br>
+            Amphi A<br>
+            Prof. J. OUDAANI</td>
+        <td>Modélisation (CM)<br>
+            Amphi A<br>
+            Prof. A. EL MOUATASIM</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
+<div id="window">
+    <a href="#" class="fermer">X</a>
+    <h2>PROGRAMMATION WEB DYNAMIQUE</h2>
+    <p>Chapitre 1 : Introduction à la programmation Orientée Objet et web</p>
+    <p>Chapitre 2 : Exploration du Langage HTML</p>
+    <p>Chapitre 3 : Exploration du Langage CSS</p>
+    <p>Chapitre 4 : Exploration du Langage JS</p>
+    <p>Chapitre 5 : Exploration du Langage PHP</p>
+</div>
+<div id="win2">
+    <a href="#" class="fermer">X</a>
+    <h1 style="color: rgb(79, 134, 216);">INFORMATION DU PROFESSEUR</h2>
+    <h3 >NOM ET PRENOM:</h3>
+    <p style="font-family: 'Courier New', Courier, monospace;font-weight: bold;">Kamal OMARI</p>
+    <h3>EMAIL:</h3>
+    <p style="font-family: 'Courier New', Courier, monospace;font-weight: bold;">k.omari@uiz.ac.ma</p>
+    <h3>MATIERE:</h3>
+    <p style="font-family: 'Courier New', Courier, monospace; font-weight: bold;">Programmation Web Dynamique</p>
+</div>
+</body>
+</html>
